@@ -8,11 +8,10 @@
 	tip.enabled=true
 }
 
-item(vis=key.shift() title="Переключить видимость скрытого" image=icon.show_hidden_files cmd='@command.togglehidden')
-
 import 'imports/theme.nss'
 import 'imports/images.nss'
 import 'imports/modify.nss'
+//import 'imports/archive.nss'
 
 menu(mode="multiple" title="Закрепить/открепить" image=icon.pin)
 {
@@ -23,3 +22,4 @@ menu(mode="multiple" title=title.more_options image=icon.more_options)
 }
 
 import 'imports/taskbar.nss'
+
