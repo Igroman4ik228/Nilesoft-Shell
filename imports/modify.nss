@@ -9,7 +9,7 @@ remove(find='Добавить в избранное')
 remove(find='Add to Favorites')
 remove(find='3D Edit')
 remove(find='Правка')
-remove(find='Edit')
+
 remove(where=this.id==id.troubleshoot_compatibility)
 remove(where=this.id==id.open_powershell_window_here)
 remove(where=this.id==id.edit)
