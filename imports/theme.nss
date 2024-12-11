@@ -10,6 +10,7 @@
 		opacity = 100
 		// effect = 2
 	}
+	
 	item
 	{
 		opacity = 100
